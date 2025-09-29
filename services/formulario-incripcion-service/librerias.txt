@@ -1,0 +1,2 @@
+npm install express mongoose cors dotenv jsonwebtoken
+npm install -D nodemon

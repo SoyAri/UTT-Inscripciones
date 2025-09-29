@@ -1,0 +1,2 @@
+npm install express cors express-http-proxy
+npm install -D nodemon
