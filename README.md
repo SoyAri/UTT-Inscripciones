@@ -76,7 +76,7 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local.
 ### 1. Clonar el Repositorio
 
 ```sh
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/SoyAri/UTT-Inscripciones
 cd <NOMBRE_DEL_PROYECTO>
 ```
 
