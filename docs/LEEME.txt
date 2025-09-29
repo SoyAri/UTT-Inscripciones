@@ -1,0 +1,3 @@
+Actualización del ADR 2: Se reemplazó el registro de decisión arquitectónica anterior por el de "Uso de una Base de Datos Compartida con Esquemas Lógicos Separados". Esta decisión refleja que, para agilizar el desarrollo y simplificar la infraestructura inicial, todos los microservicios utilizan una única instancia de MongoDB en lugar de una base de datos separada para cada uno.
+
+Simplificación del Diagrama de Despliegue: En consecuencia, el diagrama de despliegue en la nube se simplificó para mostrar una arquitectura más directa y pragmática. El nuevo diagrama representa cómo todos los componentes (Frontend Angular, API Gateway, Microservicios y Base de Datos) coexisten y operan dentro de un único Servidor Privado Virtual (VPS), gestionados por Apache y PM2.
